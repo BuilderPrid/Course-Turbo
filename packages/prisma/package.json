@@ -1,0 +1,19 @@
+{
+  "name": "@repo/prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "exports":{
+    "./client":"./prisma-client.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.8.1",
+    "prisma": "^5.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "prisma": "^5.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
